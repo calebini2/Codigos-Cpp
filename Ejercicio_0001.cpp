@@ -14,7 +14,9 @@ void  main()
 	//Proceso
 	area = base * altura;
 	//Salida
-	printf("Area del rectangulo de %f x %f = %f", base,altura,area);
+	printf("Area del rectangulo de %8.2f x %8.2f = %10.2f", base,altura,area);
+	//%8 pociciones y .2 decimales y 1 pocision la ocupa el punto
+
 	/*Comentario
 	largo de
 	varias lineas*/
